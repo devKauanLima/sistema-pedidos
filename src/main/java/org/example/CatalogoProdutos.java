@@ -16,7 +16,7 @@ public class CatalogoProdutos {
 
             while ((linha = br.readLine()) != null) {
                 if (primeiraLinha) {
-                    primeiraLinha = false; // pula o cabeçalho
+                    primeiraLinha = false;
                     continue;
                 }
 
